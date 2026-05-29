@@ -15,7 +15,7 @@ AI-ассистент для компании [Центр Красок](https://
 
 - Python 3.11+
 - [aiogram](https://docs.aiogram.dev/) 3
-- [OpenAI API](https://platform.openai.com/) (GPT-4o-mini)
+- [Groq API](https://console.groq.com)
 - python-dotenv
 
 ## Структура проекта
@@ -54,13 +54,13 @@ copy .env.example .env
 | Переменная | Описание |
 |------------|----------|
 | `BOT_TOKEN` | Токен бота от [@BotFather](https://t.me/BotFather) |
-| `OPENAI_API_KEY` | API-ключ OpenAI |
+| `OPENAI_API_KEY` | API-ключ Groq |
 
 Опционально:
 
 | Переменная | По умолчанию |
 |------------|--------------|
-| `OPENAI_MODEL` | `gpt-4o-mini` |
+| `OPENAI_MODEL` | `Groq` |
 
 > **Важно:** файл `.env` не коммитьте в Git — он уже в `.gitignore`.
 
